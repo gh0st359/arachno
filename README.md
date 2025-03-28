@@ -47,19 +47,19 @@ Prerequisites
 	•	requests
 
 Steps
-	1.	Clone the Repository:
+1.	Clone the Repository:
 
 git clone https://github.com/yourusername/arachno.git
 cd arachno
 
 
-	2.	Install Dependencies:
+2.	Install Dependencies:
 Use pip to install the required dependencies:
 
 pip install requests
 
 
-	3.	(Optional) Create a Virtual Environment:
+3.	(Optional) Create a Virtual Environment:
 
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
