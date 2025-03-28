@@ -6,6 +6,7 @@ Arachno is a high-performance, multi-threaded web fuzzer designed for security r
 ⸻
 
 Table of Contents
+
 	•	Features
 	•	Installation
 	•	Usage
@@ -17,8 +18,8 @@ Table of Contents
 
 ⸻
 
-Features
-	•	Multi-Threaded Fuzzing:
+	Features
+ • Multi-Threaded Fuzzing:
 Leverages Python’s ThreadPoolExecutor for concurrent requests, significantly speeding up testing.
 	•	Advanced Vulnerability Detection:
 Detects a variety of vulnerabilities including:
@@ -39,7 +40,7 @@ Optionally log detailed results to a file for further analysis.
 
 ⸻
 
-Installation
+	Installation
 
 Prerequisites
 	•	Python 3.x
@@ -70,7 +71,7 @@ pip install requests
 
 ⸻
 
-Usage
+	Usage
 
 Arachno is executed from the command line. It accepts various arguments to customize its operation.
 
@@ -106,7 +107,7 @@ File path to log the results.
 
 ⸻
 
-Configuration Options
+	Configuration Options
 
 You can tailor Arachno to your specific testing needs by configuring:
 	•	Thread Count:
@@ -120,7 +121,7 @@ Enable random User-Agent rotation to mimic diverse clients and evade simple secu
 
 ⸻
 
-Examples
+	Examples
 
 GET Fuzzing with Random User-Agent and Logging
 
@@ -138,7 +139,7 @@ python arachno.py --url "http://example.com/dashboard" --cookies "session=FUZZ" 
 
 ⸻
 
-Contributing
+	Contributing
 
 Contributions are welcome! If you’d like to enhance Arachno, please follow these guidelines:
 	1.	Fork the repository.
@@ -150,7 +151,7 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ⸻
 
-Disclaimer
+	Disclaimer
 
 Important:
 Arachno is intended for educational and authorized security testing purposes only. You must have explicit permission to test any target systems. The authors are not responsible for any misuse or damage caused by this tool. Use responsibly.
